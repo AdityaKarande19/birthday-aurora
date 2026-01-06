@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // 🔐 UNLOCK TIME (YYYY, MM-1, DD, HH, MM)
-    const unlockTime = new Date(2026, 0, 7, 0, 35); 
+    const unlockTime = new Date(2026, 0, 6, 22, 13); 
     const now = new Date();
   
     const body = document.body;
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     lockMsg.id = 'lockMessage';
     lockMsg.innerHTML = `
       <div class="lock-box">
-        🎁 Surprise unlocks at <br>
+        🎁 Ha ha ha! Won't unlock till <br>
         <strong>7th Jan, 12:45 AM</strong>
       </div>`;
     document.body.appendChild(lockMsg);
